@@ -59,6 +59,9 @@ var SendIntentAndroid = {
     shareImageToInstagram(type, mediaPath) {
         RNSendIntentAndroid.shareImageToInstagram(type, mediaPath);
     },
+    openCamera() {
+        RNSendIntentAndroid.openCamera();
+    }
 };
 
 module.exports = SendIntentAndroid;
